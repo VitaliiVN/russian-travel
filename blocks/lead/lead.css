@@ -1,0 +1,17 @@
+.lead {
+    display: flex;
+    flex-direction: column;
+    max-width: 984px;
+    justify-content: center;
+    margin: 56px auto 0;
+}
+@media (max-width: 1150px) {
+  .lead {
+    max-width: 928px;
+  }
+}
+@media (max-width: 900px) {
+  .lead {
+    max-width: 100%;
+  }
+}

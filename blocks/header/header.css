@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 28px auto 0;
+  min-width: 1184px;
+  min-height: 52px;
+}
+
+@media screen and (max-width: 1250px) {
+  .header {
+            min-width: calc(100% - 96px);
+            margin: 28px auto 0;
+          } 
+}
+
+@media screen and (max-width: 1050px) {
+  .header {
+            min-width: calc(100% - 96px);
+            margin: 28px auto 0;
+          } 
+}
+
+@media screen and (max-width: 900px) {
+  .header {
+            min-width: calc(100% - 48px);
+            margin: 28px auto 0;
+          } 
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+            min-width: calc(100% - 32px);
+            margin: 16px auto 0;
+          } 
+}
