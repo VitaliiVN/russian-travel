@@ -6,8 +6,14 @@
     text-decoration-line: underline;
     color: #FFFFFF;
     margin: 12px 0 0;
+    transition-property: opacity;
+    transition-duration: 0.3s;
 }
 
+.website__link:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
 
 @media (max-width: 340px) {
     .website__link {

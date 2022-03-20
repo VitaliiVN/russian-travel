@@ -11,10 +11,6 @@
   transition-duration: 0.3s;
   }
 
-  .header__lang-link:visited {
-    text-decoration-line: underline;
-  }
-
   .header__lang-link:hover {
     opacity: 0.8;
     cursor: pointer;
