@@ -4,6 +4,8 @@
         gap: 16px;
         width: calc(100% - 96px);
         margin: 92px auto;
+        list-style-type: none;
+        padding: 0;
 }
       @media (max-width: 1200px) {
         .photo-grid {
