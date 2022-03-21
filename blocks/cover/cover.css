@@ -4,8 +4,8 @@
     align-items: center;
     justify-content: center;
     min-width: calc(100% - 96px);
-    height: calc(100vw / 1.73);
-    margin: 0 auto;
+    height: calc(100vw / 1.7);
+    margin: 12px auto 0;
     padding: 0;
     z-index: 0;
     background-color:  #2a2c2f;
@@ -14,15 +14,13 @@
 
 @media (max-width: 1250px) {
     .cover {
-        min-width: calc(100% - 96px);
+        max-width: 100%;
         height: calc(100vw / 1.6);
     } 
  }
 
  @media (max-width: 1100px) {
     .cover {
-         min-width: 100%;
-         height: calc(100vw / 1.6);
-         margin: 0;
+         margin: 12px 0 0 0;
     }
  }

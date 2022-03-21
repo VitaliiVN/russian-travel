@@ -12,19 +12,21 @@
       max-width: calc(100% - 96px);
     }
   }
-  @media (max-width: 768px) {
+  @media (max-width: 680px) {
     .footer__menu {
       max-width: calc(100% - 48px);
       flex-direction: column;
       align-items: flex-start;
     }
   }
-  
 
-  @media (max-width: 540px) {
-    .footer__menu {
-      flex-direction: column;
-      align-items: flex-start;
+  @media (max-width: 680px) {
+    .footer__menu li {
+      margin-bottom: 32px;
     }
+
+    .footer__menu li:last-child {
+      margin-bottom: 0;
+    }
+
   }
-  

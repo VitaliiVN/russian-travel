@@ -7,3 +7,16 @@
     text-transform: uppercase;
     margin: 8px 0 0;
 }
+
+
+@media (max-width: 800px) {
+    .lead__caption {
+        margin: 8px 0 0 24px;
+    }
+  }
+  @media (max-width: 400px) {
+    .lead__caption {
+        margin: 8px 0 0 16px;
+    }
+  }
+  

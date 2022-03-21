@@ -4,3 +4,17 @@
     margin: 64px auto 0;
     object-fit: cover;
 }   
+
+
+
+@media (max-width: 1150px) {
+    .lead__image {
+        margin: 56px auto 0;
+    } 
+ }
+
+ @media (max-width: 450px) {
+    .lead__image {
+        margin: 40px auto 0;
+    } 
+ }
